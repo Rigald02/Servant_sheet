@@ -4,16 +4,16 @@ import 'package:flutter/material.dart';
 
 class Vessels extends StatelessWidget{
 
-//  Vessel _vessel;
+  Color _color;
 
-  // Vessels(this._vessel);
+  Vessels(this._color);
 
   @override
   Widget build(BuildContext context) {
     // TODO: implement build
     return Container(
       decoration: BoxDecoration(
-        color: Colors.orange,
+        color: _color,
       ),
       child: ListView(
         shrinkWrap: true,
@@ -87,4 +87,5 @@ Widget build(BuildContext context) {
     },
     separatorBuilder: (BuildContext context, int index) => const Divider(),
   );
-}*/
+}
+*/
