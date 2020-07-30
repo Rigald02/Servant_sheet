@@ -1,7 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:servantsheet/main.dart';
+import 'vessels.dart';
 
 class ServantDetail extends StatelessWidget{
+
+
   @override
   Widget build(BuildContext context) {
     // TODO: implement build
@@ -12,6 +15,7 @@ class ServantDetail extends StatelessWidget{
       body: Center(
         child: Column(
           children: <Widget>[
+            Vessels(),
             RaisedButton(
               child: Text('Servant sheet'),
               onPressed: () {
